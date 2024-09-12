@@ -1,0 +1,12 @@
+
+public class typeCasting {
+
+	public static void main(String[] args) {
+		int a = (int) 0.7;//stores 0.5 as an integer
+		
+		
+		System.out.println(a);
+
+	}
+
+}

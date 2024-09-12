@@ -1,0 +1,17 @@
+
+public class typeCasting {
+
+	public static void main(String[] args) {
+		int a = (int) 0.7;/*stores 0.7 as an integer
+		                    type casting automatically rounds down*/
+		
+		
+		byte b = 2;
+		
+		int ex = b;
+		
+		System.out.println(a);
+
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		
+		int x = 123;
+		double y = 3.14;
+		boolean z = true; //or can be false
+		char symbol = '@';
+		String name = "Victor";
+		
+		System.out.println("Hello my name is"+name);
+
+	}
+
+}

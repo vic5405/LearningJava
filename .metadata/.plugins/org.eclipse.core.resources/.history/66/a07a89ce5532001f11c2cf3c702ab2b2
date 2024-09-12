@@ -1,0 +1,18 @@
+
+public class swapTwoVariables {
+
+	public static void main(String[] args) {
+		
+		String x = "water";
+		String y = "juice";
+		String temp; //or can set to null 
+		
+		temp = x;
+		x=y;
+		y=temp;
+				
+		System.out.println("x: "+x);
+		System.out.println("y: "+y);
+
+	}
+}

@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+public class guiIntro {
+
+	public static void main(String[] args) {
+		
+		String name = JOptionPane.showInputDialog("Enter your name");/*This create an input dialog box for user to 
+																	  input there name. This will be stored in the string
+																	  variable name*/
+		JOptionPane.showMessageDialog(null, "Hello "+name);
+	}
+
+}
